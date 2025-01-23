@@ -20,7 +20,7 @@ const Solution = () => {
                         className="w-full max-w-md h-auto "
                     />
                 </div>
-                <div className="lg:w-1/2 flex flex-col justify-center text-center lg:text-left">
+                <div className="lg:w-1/2 flex flex-col justify-center text-left lg:text-left">
                     <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white mb-6">
                         Startups:
                     </h2>
@@ -41,7 +41,7 @@ const Solution = () => {
                         className="w-full max-w-md h-auto"
                     />
                 </div>
-                <div className="lg:w-1/2 flex flex-col justify-center text-left lg:text-center">
+                <div className="lg:w-1/2 flex flex-col justify-center text-left lg:text-left">
                     <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white mb-6">
                         Enterprises:
                     </h2>
@@ -62,7 +62,7 @@ const Solution = () => {
                         className="w-full max-w-md h-auto"
                     />
                 </div>
-                <div className="lg:w-1/2 flex flex-col justify-center text-center lg:text-left">
+                <div className="lg:w-1/2 flex flex-col justify-center text-left lg:text-left">
                     <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white mb-6">
                         Professional Services:
                     </h2>

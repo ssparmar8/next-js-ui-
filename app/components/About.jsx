@@ -12,10 +12,10 @@ const About = () => {
     return (
         <>
             <div
-                className="relative left-[5%] right-[5%] top-0 inset-10 flex flex-col lg:flex-row justify-between items-center text-white bg-cover rounded-3xl border border-black z-10"
+                className="inset-10 flex flex-col lg:flex-row justify-between items-center text-white bg-cover rounded-3xl border border-black "
                 style={{
                     backgroundImage: "url('/images/Rectangle2.png')",
-                    width: '90%',
+                    width: '100%',
                     height: '63%',
                 }}
             >
@@ -47,31 +47,37 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="footer">
-           <div className="footer-container">
-             <nav className="nav">
-               <ul className="nav-links">
-                 <li><Link href="/">About Us</Link></li>
-                 <li><Link href="/">Features</Link></li>
-                 <li><Link href="/">Blog</Link></li>
-                 <li><Link href="/">Careers</Link></li>
-                 <li><Link href="/contact">Contact</Link></li>
-               </ul>
-               <div className="logo-container">
-                 <Image src={Logo} alt="Logo" className="logo" />
-               </div>
-             </nav>
-  
-             <hr className="divider" />
-  
-             <nav className="nav">
-               <ul className="nav-links">
-                 <li><Link href="/about">@2025 Corprite</Link></li>
-                 <li><Link href="https://incorporight.com/privacy-policy/" target="_blank">Privacy Policy</Link></li>
-                 <li><Link href="https://incorporight.com/terms-of-service/" target="_blank">Terms of Service</Link></li>
-               </ul>
-               <div className="social-links">
-                 <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+         
+
+<div className="">
+      
+      <footer className=" shadow-lg mt-auto">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <nav className="flex flex-col md:flex-row md:justify-between md:items-center space-y-6 md:space-y-0">
+            <ul className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-3">
+              <li><a href="/" className="text-white hover:text-gray-900 transition-colors">About Us</a></li>
+              <li><a href="/" className="text-white hover:text-gray-900 transition-colors">Features</a></li>
+              <li><a href="/" className="text-white hover:text-gray-900 transition-colors">Blog</a></li>
+              <li><a href="/" className="text-white hover:text-gray-900 transition-colors">Careers</a></li>
+              <li><a href="/contact" className="text-white hover:text-gray-900 transition-colors">Contact</a></li>
+            </ul>
+            
+            <div className="flex justify-center">
+            <Image src={Logo} alt="Logo" className="logo" />
+            </div>
+          </nav>
+
+          <hr className="my-8 border-gray-200" />
+
+          <div className="flex flex-col-reverse md:flex-row md:justify-between md:items-center space-y-6 md:space-y-0 space-y-reverse">
+            <ul className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-3">
+              <li><span className="text-white">©2025 Corprite</span></li>
+              <li><a href="https://incorporight.com/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-900 transition-colors">Privacy Policy</a></li>
+              <li><a href="https://incorporight.com/terms-of-service/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-900 transition-colors">Terms of Service</a></li>
+            </ul>
+
+            <div className="flex justify-center gap-6">
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
                    <Image src={X} alt="Twitter" className="social-icon" />
                  </a>
                  <a href="https://www.facebook.com/incorporight/" target="_blank" rel="noopener noreferrer">
@@ -80,12 +86,11 @@ const About = () => {
                  <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fincorporight%2F&is_from_rle" target="_blank" rel="noopener noreferrer">
                    <Image src={Instagram} alt="Instagram" className="social-icon" />
                  </a>
-               </div>
-             </nav>
-           </div>
-         </div>
-
-           
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
             <ScrollToTopButton />
         </>
     );
