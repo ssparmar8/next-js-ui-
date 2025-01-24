@@ -1,13 +1,13 @@
 'use client';
-import React, { useState } from "react";
-import { FaHome, FaFacebookF, FaInstagram, FaTwitter, FaFileAlt } from "react-icons/fa";
-import { IoMailSharp } from "react-icons/io5";
-import { TfiLinkedin } from "react-icons/tfi";
-import { AiOutlineMail } from "react-icons/ai";
-import { BiLogoTiktok } from "react-icons/bi";
+import React, { useState } from 'react';
+import { FaFacebookF, FaInstagram, FaTwitter, FaHome } from 'react-icons/fa';
+import { IoMailSharp } from 'react-icons/io5';
+import { TfiLinkedin } from 'react-icons/tfi';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BiLogoTiktok } from 'react-icons/bi';
 import Image from 'next/image';
 import Link from 'next/link';
-import Navbar from "../components/Navbar";
+import Navbar from '../components/Navbar';
 import CompanyLogo from '../../public/images/logoAct.png';
 
 const Contact = () => {
@@ -16,45 +16,44 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!captchaValid) {
-      alert("Please complete the CAPTCHA verification.");
+      alert('Please complete the CAPTCHA verification.');
       return;
     }
-    alert("Form submitted successfully!");
+    alert('Form submitted successfully!');
   };
+
+  const socialLinks = [
+    { Icon: FaFacebookF, link: 'https://facebook.com', label: 'Facebook' },
+    { Icon: FaTwitter, link: 'https://twitter.com', label: 'Twitter' },
+    { Icon: FaInstagram, link: 'https://instagram.com', label: 'Instagram' },
+    { Icon: BiLogoTiktok, link: 'https://tiktok.com', label: 'TikTok' },
+    { Icon: TfiLinkedin, link: 'https://linkedin.com', label: 'LinkedIn' },
+    { Icon: AiOutlineMail, link: 'mailto:mail@incorporight.com', label: 'Email' },
+  ];
 
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
 
-      <header className="bg-black py-12 mt-16 md:mt-20">
-        <div className="max-w-6xl mx-auto px-6">
-          <h1 className="text-white text-3xl sm:text-5xl font-bold text-center">
-            Contact
-          </h1>
-        </div>
+      <header className="bg-black py-12 mt-16 md:mt-20 text-center">
+        <h1 className="text-white text-3xl sm:text-5xl font-bold">Contact</h1>
       </header>
 
-      <main className="flex flex-col md:flex-row gap-8 py-8 px-6 max-w-6xl mx-auto">
-
+      <main className="flex flex-col md:flex-row gap-8 py-12 px-6 max-w-6xl mx-auto">
         <section className="w-full md:w-1/2">
           <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Contact Us</h2>
           <p className="text-lg mb-6">Looking for help? Fill out the form below.</p>
 
-          <div className="flex flex-wrap gap-4 mb-6">
-            {[{
-              Icon: FaFacebookF, link: "https://facebook.com"
-            }, {
-              Icon: FaTwitter, link: "https://twitter.com"
-            }, {
-              Icon: FaInstagram, link: "https://instagram.com"
-            }, {
-              Icon: BiLogoTiktok, link: "https://tiktok.com"
-            }, {
-              Icon: TfiLinkedin, link: "https://linkedin.com"
-            }, {
-              Icon: AiOutlineMail, link: "mailto:mail@incorporight.com"
-            }].map(({ Icon, link }, idx) => (
-              <a href={link} key={idx} target="_blank" rel="noopener noreferrer" className="bg-gray-300 p-3 rounded-full">
+          <div className="flex flex-wrap gap-3 mb-6">
+            {socialLinks.map(({ Icon, link, label }, idx) => (
+              <a
+                key={idx}
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+                className="bg-gray-300 p-3 rounded-full hover:bg-gray-400 transition"
+              >
                 <Icon className="text-black text-lg" />
               </a>
             ))}
@@ -62,15 +61,17 @@ const Contact = () => {
 
           <div className="mb-6">
             <h3 className="text-sm font-semibold tracking-widest">HEADQUARTERS</h3>
-            <p className="flex items-center gap-3 text-white">
-              <FaHome className="text-orange-600" /> 98 Avenue Road, Toronto
+            <p className="flex items-center gap-3 mt-2 text-white">
+              <FaHome className="text-orange-600" />
+              98 Avenue Road, Toronto
             </p>
           </div>
 
           <div>
             <h3 className="text-sm font-semibold tracking-widest">SUPPORT</h3>
-            <p className="flex items-center gap-3 text-white">
-              <IoMailSharp className="text-orange-600" /> mail@incorporight.com
+            <p className="flex items-center gap-3 mt-2 text-white">
+              <IoMailSharp className="text-orange-600" />
+              mail@incorporight.com
             </p>
           </div>
 
@@ -162,7 +163,6 @@ const Contact = () => {
             </button>
           </form>
         </section>
-
       </main>
 
       <footer className="bg-black py-6">
@@ -171,8 +171,15 @@ const Contact = () => {
             TM © 2025 Corpright Inc. Patent Pending.
           </p>
           <div className="flex gap-4">
-            {[FaFacebookF, FaTwitter, FaInstagram, BiLogoTiktok, TfiLinkedin, AiOutlineMail].map((Icon, idx) => (
-              <a href="#" key={idx} className="text-white text-xl hover:text-gray-400 transition">
+            {socialLinks.map(({ Icon, link, label }, idx) => (
+              <a
+                key={idx}
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+                className="text-white text-xl hover:text-gray-400 transition"
+              >
                 <Icon />
               </a>
             ))}
