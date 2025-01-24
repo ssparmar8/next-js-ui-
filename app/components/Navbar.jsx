@@ -21,7 +21,7 @@ const Navbar = () => {
             width={64}
           />
         </Link>
-        <p className="text-2xl font-bold text-white ml-2">Corprite</p>
+        <p className="text-2xl font-bold text-white ml-2">CORPRITE</p>
       </div>
 
       <ul className="hidden md:flex gap-6 lg:gap-12 text-gray-400">
@@ -93,9 +93,9 @@ const Navbar = () => {
           passHref
           target="_blank"
         >
-          <button className="bg-black hover:bg-gray-800 text-white py-2 px-6 rounded-md transition duration-300">
+          {/* <button className="bg-black hover:bg-gray-800 text-white py-2 px-6 rounded-md transition duration-300">
             Login
-          </button>
+          </button> */}
         </Link>
         <Link href="/contact" passHref>
           <button className="bg-white hover:bg-gray-100 text-black py-2 px-6 rounded-md transition duration-300">

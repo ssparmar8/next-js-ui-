@@ -5,7 +5,7 @@ import Image from 'next/image';
 const SliderTest = () => {
   const slides = [
     {
-      image: '/images/image55552555.png',
+      image: '/images/Desktop111.jpg',
       title: 'Dashboard',
       content: ' Effortlessly manage your entities with a centralized dashboard that brings together critical company data. View and download general information, shareholder details, share classes,directors, officers, and cap tables—all with just a click.'
     },
