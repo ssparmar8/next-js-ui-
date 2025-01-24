@@ -1,18 +1,5 @@
-import Square from '../../public/images/square.png';
 import Link from 'next/link';
-import Ellipse from '../../public/images/Ellipse1.png';
-import Group1 from '../../public/images/Group1.png';
-import Group2 from '../../public/images/Group2.png';
-import Image from 'next/image';
-import C_1 from '../../public/images/c_1.png';
-import C_2 from '../../public/images/c_2.png';
-import C_3 from '../../public/images/c_3.png';
-import C_4 from '../../public/images/c_4.png';
-import C_5 from '../../public/images/c_5.png';
-import C_6 from '../../public/images/c_6.png';
-import White from '../../public/images/whiteEllipse.png'
-import Star from '../../public/images/star.png'
-import Dot from '../../public/images/dot.png'
+
 import ScrollToBottomButton from './ScrollBottom';
 
 const Home = () => {

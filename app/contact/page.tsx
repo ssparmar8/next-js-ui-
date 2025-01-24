@@ -16,7 +16,7 @@ import Navbar from "../components/Navbar";
 
 const Contact = () => {
 
-  const Sitekey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "";
+  // const Sitekey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "";
 
   const [captchaValid, setCaptchaValid] = useState(false);
 
@@ -66,7 +66,7 @@ const Contact = () => {
             ].map(({ Icon, link }, idx) => (
               <div key={idx} className="bg-gray-300 p-2 sm:p-2 rounded">
                 <a href={link} target="_blank" rel="noopener noreferrer">
-                  <Icon className="text-iconColor text-lg sm:text-xl" />
+                  <Icon className="text-black text-lg sm:text-xl" />
                 </a>
               </div>
             ))}
@@ -87,7 +87,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="w-full md:w-1/2 bg-white rounded-lg shadow-lg p-4 sm:p-6 md:p-8 lg:w-4/5">
+        <div className="w-full md:w-1/2 bg-white text-black rounded-lg shadow-lg p-4 sm:p-6 md:p-8 lg:w-4/5">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 sm:mb-6">
             Let&apos;s Connect
           </h2>
@@ -165,10 +165,10 @@ const Contact = () => {
             </div>
 
             <div className="mb-6">
-              <ReCAPTCHA
-                sitekey={Sitekey}
+              {/* <ReCAPTCHA
+              sitekey={Sitekey}
                 onChange={handleCaptchaChange}
-              />
+              /> */}
             </div>
 
             <button
@@ -208,7 +208,7 @@ const Contact = () => {
             />
           </div>
 
-          <div className="w-full md:w-2/3 flex flex-col p-4">
+          <div className="w-full text-black  md:w-2/3 flex flex-col p-4">
             <p className="text-center md:text-center text-xl md:text-3xl font-semibold mb-6 text-black">
               Intermediary for
             </p>
@@ -233,7 +233,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="w-11/12 lg:w-2/3 flex flex-col text-center md:text-left">
+        <div className="w-11/12 text-black lg:w-2/3 flex flex-col text-center md:text-left">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-6">
             <div className="flex flex-col gap-2">
               <p className="flex justify-center md:justify-center items-center gap-2">
