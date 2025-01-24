@@ -55,11 +55,11 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <nav className="flex flex-col md:flex-row md:justify-between md:items-center space-y-6 md:space-y-0">
             <ul className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-3">
-              <li><a href="/" className="text-white hover:text-gray-900 transition-colors">About Us</a></li>
-              <li><a href="/" className="text-white hover:text-gray-900 transition-colors">Features</a></li>
-              <li><a href="/" className="text-white hover:text-gray-900 transition-colors">Blog</a></li>
-              <li><a href="/" className="text-white hover:text-gray-900 transition-colors">Careers</a></li>
-              <li><a href="/contact" className="text-white hover:text-gray-900 transition-colors">Contact</a></li>
+              <li><a href="/" className="text-white hover:underline transition-colors">About Us</a></li>
+              <li><a href="/" className="text-white hover:underline transition-colors">Features</a></li>
+              <li><a href="/" className="text-white hover:underline transition-colors">Blog</a></li>
+              <li><a href="/" className="text-white hover:underline transition-colors">Careers</a></li>
+              <li><a href="/contact" className="text-white hover:underline transition-colors">Contact</a></li>
             </ul>
             
             <div className="flex justify-center">
@@ -72,8 +72,8 @@ const About = () => {
           <div className="flex flex-col-reverse md:flex-row md:justify-between md:items-center space-y-6 md:space-y-0 space-y-reverse">
             <ul className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-3">
               <li><span className="text-white">©2025 Corprite</span></li>
-              <li><a href="https://incorporight.com/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-900 transition-colors">Privacy Policy</a></li>
-              <li><a href="https://incorporight.com/terms-of-service/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-900 transition-colors">Terms of Service</a></li>
+              <li><a href="https://incorporight.com/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-white hover:underline transition-colors">Privacy Policy</a></li>
+              <li><a href="https://incorporight.com/terms-of-service/" target="_blank" rel="noopener noreferrer" className="text-white hover:underline transition-colors">Terms of Service</a></li>
             </ul>
 
             <div className="flex justify-center gap-6">
