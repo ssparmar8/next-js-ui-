@@ -53,7 +53,7 @@ const Offer = () => {
 
     return (
 <div className="px-4 w-full max-w-[1400px] mx-auto py-4 items-center justify-center">
-  <div className="p-2">
+  <div className="mt-[200px]">
     <p className="text-gray-400  text-sm sm:text-base md:text-lg lg:text-xl leading-6 pb-12 text-center">
       Corprite is committed to helping providers improve their corporate management solution for their clients. From the start, we offer
       development services to get the platform customized and integrated into existing systems. Beyond that, our commitment to ongoing,

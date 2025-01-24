@@ -662,6 +662,12 @@ video {
 .mt-auto {
   margin-top: auto;
 }
+.mt-\[150px\] {
+  margin-top: 150px;
+}
+.mt-\[200px\] {
+  margin-top: 200px;
+}
 .block {
   display: block;
 }
@@ -1181,11 +1187,6 @@ body {
 .hover\:text-gray-300:hover {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity, 1));
-}
-
-.hover\:text-gray-900:hover {
-  --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-pink-600:hover {
