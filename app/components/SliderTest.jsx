@@ -57,7 +57,7 @@ const SliderTest = () => {
   
     <button
       onClick={prevSlide}
-      className="absolute top-[90%] sm:top-1/2 left-4 sm:left-8 lg:left-[-70px] transform sm:-translate-y-1/2 sm:p-4 p-2 bg-gray-800 bg-opacity-50 text-white rounded-full hover:bg-opacity-70 transition"
+      className="absolute top-[90%] sm:top-1/2 left-4 sm:left-8 lg:left-[-70px] transform sm:-translate-y-1/2 sm:p-4 p-2 bg-white rounded-full hover:bg-opacity-70 transition"
       aria-label="Previous Slide"
     >
       <Image
@@ -70,7 +70,7 @@ const SliderTest = () => {
   
     <button
       onClick={nextSlide}
-      className="absolute top-[90%] sm:top-1/2 right-4 sm:right-8 lg:right-[-70px] transform sm:-translate-y-1/2 sm:p-4 p-2 bg-gray-800 bg-opacity-50 text-white rounded-full hover:bg-opacity-70 transition"
+      className="absolute top-[90%] sm:top-1/2 right-4 sm:right-8 lg:right-[-70px] transform sm:-translate-y-1/2 sm:p-4 p-2 bg-white rounded-full hover:bg-opacity-70 transition"
       aria-label="Next Slide"
     >
       <Image
