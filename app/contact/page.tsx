@@ -1,26 +1,14 @@
 'use client';
-import React, { useState } from 'react';
 import { FaFacebookF, FaInstagram, FaTwitter, FaHome } from 'react-icons/fa';
 import { IoMailSharp } from 'react-icons/io5';
 import { TfiLinkedin } from 'react-icons/tfi';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BiLogoTiktok } from 'react-icons/bi';
 import Image from 'next/image';
-import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import CompanyLogo from '../../public/images/logoAct.png';
 
 const Contact = () => {
-  const [captchaValid, setCaptchaValid] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!captchaValid) {
-      alert('Please complete the CAPTCHA verification.');
-      return;
-    }
-    alert('Form submitted successfully!');
-  };
 
   const socialLinks = [
     { Icon: FaFacebookF, link: 'https://facebook.com', label: 'Facebook' },
@@ -32,7 +20,7 @@ const Contact = () => {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-black text-white">
       <Navbar />
 
       <header className="bg-black py-12 mt-16 md:mt-20 text-center">
@@ -61,7 +49,7 @@ const Contact = () => {
 
           <div className="mb-6">
             <h3 className="text-sm font-semibold tracking-widest">HEADQUARTERS</h3>
-            <p className="flex items-center gap-3 mt-2 text-white">
+            <p className="flex items-center gap-3 mt-2 ">
               <FaHome className="text-orange-600" />
               98 Avenue Road, Toronto
             </p>
@@ -69,7 +57,7 @@ const Contact = () => {
 
           <div>
             <h3 className="text-sm font-semibold tracking-widest">SUPPORT</h3>
-            <p className="flex items-center gap-3 mt-2 text-white">
+            <p className="flex items-center gap-3 mt-2 ">
               <IoMailSharp className="text-orange-600" />
               mail@incorporight.com
             </p>
@@ -81,8 +69,8 @@ const Contact = () => {
         </section>
 
         <section className="w-full md:w-1/2 bg-white text-black rounded-lg shadow-lg p-6">
-          <h2 className="text-xl sm:text-2xl font-semibold mb-6">Let's Connect</h2>
-          <form onSubmit={handleSubmit}>
+          <h2 className="text-xl sm:text-2xl font-semibold mb-6">Let&apos;s Connect</h2>
+          <form >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
               <div>
                 <label htmlFor="firstName" className="block text-sm font-semibold mb-2">

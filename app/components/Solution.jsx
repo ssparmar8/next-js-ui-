@@ -5,7 +5,7 @@ import Solution3 from '../../public/images/s_3.png';
 
 const Solution = () => {
     return (
-        <div className="px-4 md:px-8 lg:px-16">
+        <div className="px-4 md:px-8 lg:px-16 bg-black">
             <div className="text-center m-6 p-6">
                 <h2 className="font-bold text-2xl md:text-4xl lg:text-5xl text-white">
                     Tailored Solutions for Every Business

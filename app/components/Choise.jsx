@@ -3,7 +3,7 @@ import Choose from '../../public/images/choose.png';
 
 const Choise = () => {
     return (
-        <div className="px-4 md:px-8 lg:px-16">
+        <div className="px-4 md:px-8 lg:px-16 bg-black">
             <div className="text-center">
                 <h2 className="font-bold text-3xl md:text-4xl lg:text-5xl text-white mt-12">
                     Why Choose Corprite Over Others?
@@ -22,3 +22,4 @@ const Choise = () => {
 };
 
 export default Choise;
+    

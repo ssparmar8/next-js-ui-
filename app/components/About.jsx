@@ -10,7 +10,7 @@ import './style.css';
 
 const About = () => {
     return (
-        <>
+        <div className="bg-black">
             <div
                 className="inset-10 flex flex-col lg:flex-row justify-between items-center text-white bg-cover rounded-3xl border border-black "
                 style={{
@@ -92,7 +92,7 @@ const About = () => {
       </footer>
     </div>
             <ScrollToTopButton />
-        </>
+        </div>
     );
 };
 

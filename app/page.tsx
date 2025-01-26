@@ -8,7 +8,7 @@ import SliderTest from './components/SliderTest';
 
 export default function MainApp() {
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden bg-black">
       <Navbar />
       <hr className="border border-gray-800 mt-20 pt-8 md:mt-12" />
       <Home />
