@@ -53,7 +53,7 @@ const SliderTest = () => {
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-white">
           {slides[currentIndex].title}
         </h2>
-        <p className="font-bold md:text-base lg:text-lg text-gray-600 mb-4">
+        <p className="font-bold md:text-base lg:text-lg text-white mb-4">
           {slides[currentIndex].content}
         </p>
       </div>
