@@ -17,7 +17,7 @@ const Price = () => {
             </p>
           </div>
 
-          <div className="bg-black text-black p-2 sm:p-2 rounded-lg shadow-md w-full pr-8">
+          <div className="bg-black text-black p-2 sm:p-2 rounded-lg shadow-md w-full ">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 text-center">
               {[
                 { title: "Foundation", discount: "10%", price: "$486", monthly: "$45", no: "1-5" },
