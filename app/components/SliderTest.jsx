@@ -5,17 +5,19 @@ import Image from 'next/image';
 const SliderTest = () => {
   const slides = [
     {
-      image: '/images/Desktop111.jpg',
+      image: '/images/Desktop1.jpg',
       title: 'Dashboard',
       content: ' Effortlessly manage your entities with a centralized dashboard that brings together critical company data. View and download general information, shareholder details, share classes,directors, officers, and cap tables—all with just a click.'
     },
     {
-      image: '/images/minute_book.png',
+      // image: '/images/Desktop2.jpg',
+      image: '/images/Dashboarddd.png',
+
       title: 'Digital Minute Book',
       content: 'The digital minute book lets users upload multiple documents simultaneously, organize them automatically, and edit or enhance them with AI tools. Documents can be signed directly within the platform, and the entire minute book can be instantly downloaded or seamless corporate record management.'
     },
     {
-      image: '/images/activity.png',
+      image: '/images/Desktop3.jpg',
       title: 'The Activity log',
       content: 'The activity log serves as a centralized record of all corporate activities; each assigned a unique transaction ID powered by our distributed ledger. Easily download the log or securely share access with third parties for transparent and efficient management.'
     }
