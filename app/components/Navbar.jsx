@@ -10,7 +10,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between bg-black text-white p-4">
+    <nav className=" flex items-center justify-between bg-black text-white p-4">
       <div className="flex items-center">
         <Link href="/" passHref>
           <Image

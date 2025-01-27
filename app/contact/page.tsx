@@ -155,9 +155,11 @@ const Contact = () => {
 
       <footer className="bg-black py-6">
         <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between">
-          <p className="text-gray-400 text-sm text-center sm:text-left mb-4 sm:mb-0">
-            TM © 2025 Corpright Inc. Patent Pending.
-          </p>
+        <ul className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-3">
+              <li><span className="text-white">©2025 Corprite</span></li>
+              <li><a href="https://incorporight.com/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-white hover:underline transition-colors">Privacy Policy</a></li>
+              <li><a href="https://incorporight.com/terms-of-service/" target="_blank" rel="noopener noreferrer" className="text-white hover:underline transition-colors">Terms of Service</a></li>
+            </ul>
           <div className="flex gap-4">
             {socialLinks.map(({ Icon, link, label }, idx) => (
               <a
