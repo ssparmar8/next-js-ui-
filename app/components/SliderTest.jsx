@@ -135,7 +135,7 @@ const SliderTest = () => {
   return (
     <div className="relative w-full max-w-7xl mx-auto flex flex-col items-center justify-between overflow-hidden bg-gray-900 text-white rounded-lg shadow-lg">
       {/* Image Section */}
-      <div className="relative w-full h-[200px] lg:h-[400px] overflow-hidden rounded-t-lg lg:rounded-none lg:w-full">
+      <div className="relative w-full h-[200px] lg:h-[600px] overflow-hidden rounded-t-lg lg:rounded-none lg:w-full">
         <AnimatePresence>
           <motion.div
             key={currentIndex}
