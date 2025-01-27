@@ -1,0 +1,44 @@
+.eligibility-form {
+    padding: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h3 {
+    margin-bottom: 12px;
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .group {
+    flex: 1 1 300px; /* Flex item with a minimum width */
+    max-width: 400px;
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  h4 {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+  }
+  
+  label {
+    display: block;
+    margin: 8px 0;
+    font-size: 0.9em;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  .review {
+    margin-top: 20px;
+  }
+  

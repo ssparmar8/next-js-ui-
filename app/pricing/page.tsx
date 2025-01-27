@@ -3,12 +3,11 @@ import Navbar from '../components/Navbar';
 import Link from 'next/link';
 const Price = () => {
   return (
-    <>
+    <div className="bg-black">
       <div>
         <Navbar />
       </div>
-
-      <div className="bg-black text-black lg:min-h-[calc(100vh-6rem)] p-4 sm:p-4 flex flex-col overflow-hidden mt-32">
+      <div className=" text-black lg:min-h-[calc(100vh-6rem)] p-4 sm:p-4 flex flex-col overflow-hidden mt-32">
         <div className="flex flex-col items-center gap-4 flex-grow">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-2">Pricing Tiers</h2>
@@ -55,7 +54,7 @@ const Price = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
