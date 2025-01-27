@@ -39,7 +39,6 @@ const SliderTest = () => {
 
   return (
     <div className="relative w-full max-w-7xl mx-auto flex flex-col items-center justify-between overflow-hidden bg-gray-900 text-white rounded-lg shadow-lg">
-      {/* Image Section */}
       <div className="relative w-full h-[200px] lg:h-[600px] overflow-hidden rounded-t-lg lg:rounded-none lg:w-full">
         <AnimatePresence>
           <motion.div
@@ -61,7 +60,6 @@ const SliderTest = () => {
         </AnimatePresence>
       </div>
 
-      {/* Content Section */}
       <div className="flex flex-col items-center lg:items-start lg:w-1/2 px-6 lg:px-12 py-8 text-center lg:text-left">
         <AnimatePresence mode="wait">
           <motion.div
@@ -82,7 +80,6 @@ const SliderTest = () => {
         </AnimatePresence>
       </div>
 
-      {/* Navigation Buttons */}
       <button
         onClick={prevSlide}
         className="absolute top-1/2 left-4 transform -translate-y-1/2 p-3 bg-gray-700 text-white rounded-full shadow hover:bg-gray-600 transition"
@@ -99,7 +96,6 @@ const SliderTest = () => {
         ❯
       </button>
 
-      {/* Dots Navigation */}
       <div className="absolute bottom-6 flex gap-3">
         {slides.map((_, index) => (
           <button

@@ -93,9 +93,6 @@ const Navbar = () => {
           passHref
           target="_blank"
         >
-          {/* <button className="bg-black hover:bg-gray-800 text-white py-2 px-6 rounded-md transition duration-300">
-            Login
-          </button> */}
         </Link>
         <Link href="/contact" passHref>
           <button className="bg-white hover:bg-gray-100 text-black py-2 px-6 rounded-md transition duration-300">
