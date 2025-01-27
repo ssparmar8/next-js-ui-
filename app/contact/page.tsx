@@ -30,7 +30,7 @@ const Contact = () => {
       <main className="flex flex-col md:flex-row gap-8 py-12 px-6 max-w-6xl mx-auto">
         <section className="w-full md:w-1/2">
           <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Contact Us</h2>
-          <p className="text-lg mb-6">Looking for help? Fill out the form below.</p>
+          <p className="text-lg mb-6">Looking for help? Fill out the form.</p>
 
           <div className="flex flex-wrap gap-3 mb-6">
             {socialLinks.map(({ Icon, link, label }, idx) => (
