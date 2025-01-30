@@ -71,8 +71,6 @@ const Solution = () => {
           </p>
         </div>
       </div>
-
-     
     </div>
   );
 };
