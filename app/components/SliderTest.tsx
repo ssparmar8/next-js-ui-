@@ -12,7 +12,7 @@ const SliderTest = () => {
         'Effortlessly manage your entities with a centralized dashboard that brings together critical company data. View and download general information, shareholder details, share classes, directors, officers, and cap tables—all with just a click.',
     },
     {
-      image: '/images/Mbook.png',
+      image: '/images/Mbook2.png',
       title: 'Digital Minute Book',
       content:
         'The digital minute book lets users upload multiple documents simultaneously, organize them automatically, and edit or enhance them with AI tools. Documents can be signed directly within the platform, and the entire minute book can be instantly downloaded for seamless corporate record management.',
