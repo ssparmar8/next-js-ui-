@@ -23,7 +23,7 @@ const Home = () => {
           </h1>
           <p className="mt-4 text-sm sm:text-lg text-gray-400 font-bold leading-6">
             Simplify compliance, manage stakeholders,
-            <br /> and drive growth with Corprite intuitive platform.
+            <br /> and drive growth with corprite's intuitive platform.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-6 font-bold items-center justify-center lg:justify-start">

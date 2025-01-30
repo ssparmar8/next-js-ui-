@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Choose from "../../public/images/choose.png";
+// import { Check, X } from 'lucide-react';
+import Choose from "../../public/images/Choose2.png";
 
 const Choise = () => {
   return (

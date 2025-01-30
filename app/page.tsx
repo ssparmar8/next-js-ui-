@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Provider from './components/Provider';
+// import Provider from './components/Provider';
 import Choose from './components/Choise';
 import Bussiness from './components/Solution';
 import Contact from './components/About';
@@ -12,7 +12,7 @@ export default function MainApp() {
       <Navbar />
       <Home />
 
-      <Provider />
+      {/* <Provider /> */}
 
       <div>
         <SliderTest />
