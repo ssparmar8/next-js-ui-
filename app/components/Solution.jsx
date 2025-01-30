@@ -63,7 +63,7 @@ const Solution = () => {
         </div>
         <div className="lg:w-1/2 flex flex-col justify-center text-left lg:text-left">
           <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white mb-6">
-            Move to First Position:
+          Lawyers:
           </h2>
           <p className="text-lg md:text-xl lg:text-2xl text-gray-500 leading-8">
             Enhance your client offerings with Corprite’s white-label solutions.

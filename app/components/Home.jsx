@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import sideimg from "../../public/images/sideimg3.png";
+import sideimg from "../../public/images/Sideimg5.png";
 
 import ScrollToBottomButton from "./ScrollBottom";
 

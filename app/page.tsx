@@ -14,7 +14,7 @@ export default function MainApp() {
 
       {/* <Provider /> */}
 
-      <div>
+      <div >
         <SliderTest />
       </div>
 
