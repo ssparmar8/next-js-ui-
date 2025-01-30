@@ -11,8 +11,27 @@ const Solution = () => {
           Tailored Solutions for Every Business
         </h2>
       </div>
-
       <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-0 my-12">
+        <div className="lg:w-1/2 flex justify-center">
+          <Image
+            src={Solution3}
+            alt="Professional Services"
+            className="w-full max-w-md h-auto"
+          />
+        </div>
+        <div className="lg:w-1/2 flex flex-col justify-center text-left lg:text-left">
+          <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white mb-6">
+          Lawyers:
+          </h2>
+          <p className="text-lg md:text-xl lg:text-2xl text-gray-500 leading-8">
+            Enhance your client offerings with Corprite’s white-label solutions.
+            Provide a branded, seamless experience for your clients, helping
+            them manage governance and corporate structures with ease.
+          </p>
+        </div>
+      </div>
+
+      <div className="flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-0 my-12">
         <div className="lg:w-1/2 flex justify-center">
           <Image
             src={Solution1}
@@ -32,7 +51,7 @@ const Solution = () => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-0 my-12">
+      <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-0 my-12">
         <div className="lg:w-1/2 flex justify-center">
           <Image
             src={Solution2}
@@ -53,25 +72,7 @@ const Solution = () => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-0 my-12">
-        <div className="lg:w-1/2 flex justify-center">
-          <Image
-            src={Solution3}
-            alt="Professional Services"
-            className="w-full max-w-md h-auto"
-          />
-        </div>
-        <div className="lg:w-1/2 flex flex-col justify-center text-left lg:text-left">
-          <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white mb-6">
-          Lawyers:
-          </h2>
-          <p className="text-lg md:text-xl lg:text-2xl text-gray-500 leading-8">
-            Enhance your client offerings with Corprite’s white-label solutions.
-            Provide a branded, seamless experience for your clients, helping
-            them manage governance and corporate structures with ease.
-          </p>
-        </div>
-      </div>
+     
     </div>
   );
 };
