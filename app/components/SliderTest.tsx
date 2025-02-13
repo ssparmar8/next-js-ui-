@@ -6,13 +6,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 const SliderTest = () => {
   const slides = [
     {
-      image: '/images/Dashboardnew.png',
+      image: '/images/dashboardV1.png',
       title: 'Dashboard',
       content:
         'Effortlessly manage your entities with a centralized dashboard that brings together critical company data. View and download general information, shareholder details, share classes, directors, officers, and cap tables—all with just a click.',
     },
     {
-      image: '/images/Mbook2.png',
+      image: '/images/documentV1.png',
       title: 'Digital Minute Book',
       content:
         'The digital minute book lets users upload multiple documents simultaneously, organize them automatically, and edit or enhance them with AI tools. Documents can be signed directly within the platform, and the entire minute book can be instantly downloaded for seamless corporate record management.',
@@ -39,7 +39,7 @@ const SliderTest = () => {
 
   return (
     <div className="relative  w-full max-w-7xl mx-auto flex flex-col items-center justify-between overflow-hidden bg-gray-900 text-white rounded-lg shadow-lg">
-      <div className="relative w-full h-[200px] lg:h-[600px] overflow-hidden rounded-t-lg lg:rounded-none lg:w-full">
+      <div className={`relative w-full ${slides[currentIndex].title === 'The Activity Log' ? 'h-[200px] lg:h-[600px]' : 'h-[215px] lg:h-[668px]'  } overflow-hidden rounded-t-lg lg:rounded-none lg:w-full`}>
         <AnimatePresence>
           <motion.div
             key={currentIndex}

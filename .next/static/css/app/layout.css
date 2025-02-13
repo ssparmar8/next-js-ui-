@@ -674,6 +674,9 @@ video {
 .h-\[200px\] {
   height: 200px;
 }
+.h-\[215px\] {
+  height: 215px;
+}
 .h-auto {
   height: auto;
 }
@@ -1377,6 +1380,10 @@ body {
 
   .lg\:h-\[600px\] {
     height: 600px;
+  }
+
+  .lg\:h-\[668px\] {
+    height: 668px;
   }
 
   .lg\:max-h-\[600px\] {
