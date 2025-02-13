@@ -29,7 +29,7 @@ const Home = () => {
           <div className="flex flex-col sm:flex-row gap-4 mt-6 font-bold items-center justify-center lg:justify-start">
             <Link href="/contact" passHref>
               <button className="bg-white text-black py-3 px-8 sm:py-4 sm:px-12 rounded-xl hover:bg-gray-800 hover:text-white transition-all duration-300">
-                Try it Now!
+                Request a Demo
               </button>
             </Link>
             <Link href="/pricing" passHref>

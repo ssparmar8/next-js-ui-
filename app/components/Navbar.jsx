@@ -96,7 +96,7 @@ const Navbar = () => {
         </Link>
         <Link href="/contact" passHref>
           <button className="bg-white hover:bg-gray-100 text-black py-2 px-6 rounded-md transition duration-300">
-            Try Demo
+          Request a Demo
           </button>
         </Link>
       </div>
