@@ -1,4 +1,4 @@
-// File: C:\Users\Vashu\Desktop\Woyce-avai\next-js-ui-\app\page.tsx
+// File: /home/ubantu/Desktop/incorporight/next-js-ui-/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
